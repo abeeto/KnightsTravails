@@ -6,17 +6,27 @@
     <title>The Website Name</title>
 </head>
 <body>
-    <h1>Testing Font Should Be Oswald</h1>
-    <h2>Testing Font Should Be Oswald</h2>
-    <h3>Testing Font Should Be Oswald</h3>
-    <p>
-        All text other than headings should be in Afacad Flux:
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ipsa necessitatibus alias minus rerum molestias voluptates veniam, ad sed rem nesciunt repudiandae natus perspiciatis sunt maxime saepe eius, ex in. Esse sint eos suscipit et illum, quaerat sapiente perspiciatis unde minus enim a expedita omnis ab consectetur nemo iusto dolorum! Quaerat ut unde aut aliquid inventore necessitatibus quas molestiae iusto eligendi porro. Quis, molestiae laboriosam voluptates libero sit voluptatem ipsa odit odio sed cum vel eos dicta ratione non quisquam rem harum tempora unde! Laborum voluptates aspernatur est. Modi, incidunt? Architecto doloremque esse ut dolore obcaecati, magni similique dolorem eligendi.
-    </p>
-    <p> 
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus aliquid, qui beatae unde perferendis illo velit vel laudantium repudiandae, veritatis porro, quaerat ab cumque veniam quasi eveniet laboriosam ullam aliquam esse fugiat. Nam, ratione repellendus beatae quaerat fuga voluptatibus totam!
-    </p>
+    <h1>Knight's Travails</h1>
+    <div class="flex flex-row spacing-xl">
+        <form id="knight-position-form" class="flex flex-col spacing-m input-form">
+            <div class="flex flex-col spacing-s">
+                <label for="startPos">Start Position:</label>
+                <input type="text" name="startPos" id="start-position-input">
+            </div>
+            <div class="flex flex-col spacing-s">
+                <label for="endPos">End Position:</label>
+                <input type="text" name="endPos" id="end-position-input">
+            </div>
+            <button id="knight-position-form-submit" class="button" value="Submit">Submit</button> 
+        </form>
+    
+        <div id="knights-output" class="flex flex-col spacing-m">
+            <div>Output:</div>
+            <div id="knights-output-text">
+    
+            </div>
+            <button id="clear-knights-output-btn" class="button" value="Clear">Clear</button>
+        </div>
+    </div>
 </body>
 </html>

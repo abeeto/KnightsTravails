@@ -48,3 +48,42 @@ h2 {
 h3,h4,h5,h6 {
     font-size: var(--step-3);
 }
+
+body > * {
+    margin-top: .8rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+.spacing-s {
+    gap: 0.5em;
+}
+
+.spacing-m {
+    gap: 1em;
+}
+
+.input-form {
+    max-width: 10em;
+}
+
+.input-form input {
+    padding: 0.2rem;
+}
+
+.button {
+    padding: 0.5em;
+}
+
+.spacing-xl {
+    gap: 5rem;
+}
