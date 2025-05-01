@@ -18,3 +18,11 @@ export function calculateAllMoves(coordinate) {
     move[1] + coordinate[1],
   ]);
 }
+
+export function coordToIndex(x, y) {
+  return x * 8 + y;
+}
+
+export function indexToCoord(index) {
+  return [Math.floor(index / 8), index % 8];
+}
