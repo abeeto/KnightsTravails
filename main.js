@@ -64,6 +64,6 @@ for (let i = 0; i < costs[targetIndex]; i++) {
   completePath.push(indexToCoord(currentNodeIndex));
   currentNodeIndex = precedings[currentNodeIndex];
 }
-console.log(costs[targetIndex]);
+console.log(`You made it in ${costs[targetIndex]} moves! Here's your path:`);
 completePath.reverse().forEach((path) => console.log(path));
 rl.close();
